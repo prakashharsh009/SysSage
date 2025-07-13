@@ -82,6 +82,40 @@ CPU Load Avg: 0.23, 0.12, 0.04
 📁 Report saved to logs/system_report_2025-07-13_14-04-23.log
 ✅ SysSage Check Complete
 
+---
+
+## ⚙️ Custom Threshold Configuration
+
+SysSage supports user-defined limits for disk, memory, and CPU usage through a config file.
+
+📄 **Path:** `config/thresholds.conf`
+
+If this file exists, the script will auto-load and use these values instead of defaults.
+
+### 🧾 Sample `thresholds.conf`
+```bash
+DISK_THRESHOLD=85        # % disk usage
+MEMORY_THRESHOLD=80      # % memory usage
+CPU_THRESHOLD=2.5        # CPU load average
+
+---
+
+```markdown
+## 🧪 Plug & Play Custom Test Scripts
+
+You can write your own test cases and drop them into the `tests/` folder.
+
+✅ The script will **auto-detect and run them**, showing `PASSED` or `FAILED` status without any modification.
+
+---
+
+### 🔨 How to Add a Test
+
+1. Create a `.sh` script in the `tests/` folder
+2. Make it return a `0` (success) or `1` (fail)
+3. That’s it — SysSage will handle the rest
+
+```
 
 🌐 Real-World Use Case
 
