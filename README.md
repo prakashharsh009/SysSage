@@ -1,5 +1,8 @@
 # 🛡️ SysSage — A Lightweight System Health Monitoring CLI Tool
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+
 > **A modular shell script that audits your system’s health right from the command line — no frills, no bloat.**
 
 ---
