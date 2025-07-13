@@ -38,7 +38,7 @@ Whether you're prepping for a deployment, testing automation, or just maintainin
 
 ## 📁 Folder Structure
 
-
+```
 SysSage/
 ├── health_check.sh           # 🧠 Main system monitoring script
 ├── tests/                    # 🧪 Custom sanity test scripts
@@ -48,10 +48,10 @@ SysSage/
 ├── config/                   # ⚙️ Thresholds & config (optional)
 ├── cronjob.txt               # ⏰ Example cron scheduling (optional)
 └── README.md                 # 📘 You’re reading it now!
+```
 
 
-
-
+---
 
 ## ⚙️ Setup & Usage
 
@@ -66,7 +66,7 @@ chmod +x health_check.sh
 # Run the health check
 ./health_check.sh
 
-```
+
 📊 Sample Output
 
 🔍 Checking disk usage...
@@ -93,16 +93,14 @@ SysSage supports user-defined limits for disk, memory, and CPU usage through a c
 If this file exists, the script will auto-load and use these values instead of defaults.
 
 ### 🧾 Sample `thresholds.conf`
-
 ```bash
 DISK_THRESHOLD=85        # % disk usage
 MEMORY_THRESHOLD=80      # % memory usage
 CPU_THRESHOLD=2.5        # CPU load average
 
-```
 ---
 
-
+```markdown
 ## 🧪 Plug & Play Custom Test Scripts
 
 You can write your own test cases and drop them into the `tests/` folder.
@@ -117,7 +115,7 @@ You can write your own test cases and drop them into the `tests/` folder.
 2. Make it return a `0` (success) or `1` (fail)
 3. That’s it — SysSage will handle the rest
 
-
+```
 
 🌐 Real-World Use Case
 
