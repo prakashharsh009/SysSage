@@ -38,14 +38,14 @@ Whether you're prepping for a deployment, testing automation, or just maintainin
 ## 📁 Folder Structure
 
 SysSage/
-├── health_check.sh # Main CLI script
-├── tests/ # Unit-like test scripts
-│ ├── test_disk.sh
-│ └── test_network.sh
-├── logs/ # Timestamped health reports
-├── config/ # Configurable thresholds (optional)
-├── cronjob.txt # Example for automation (optional)
-└── README.md
+├── health_check.sh           # 🧠 Main system monitoring script
+├── tests/                    # 🧪 Custom sanity test scripts
+│   ├── test_disk.sh
+│   └── test_network.sh
+├── logs/                     # 📁 Auto-generated health logs
+├── config/                   # ⚙️ Thresholds & config (optional)
+├── cronjob.txt               # ⏰ Example cron scheduling (optional)
+└── README.md                 # 📘 You’re reading it now!
 
 
 
