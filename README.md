@@ -35,7 +35,6 @@ Whether you're prepping for a deployment, testing automation, or just maintainin
 
 ---
 
-## 📁 Folder Structure
 
 ## 📁 Folder Structure
 
